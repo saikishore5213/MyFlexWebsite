@@ -92,4 +92,4 @@ catch [System.Exception]
     $ExitCode = -1
 }
 
-[Environment]::Exit($exitCode)
+Exit $ExitCode
