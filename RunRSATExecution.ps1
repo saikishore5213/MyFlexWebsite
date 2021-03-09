@@ -91,5 +91,3 @@ catch [System.Exception]
     Write-Message "$($_.Exception.ToString())" -Diag
     $ExitCode = -1
 }
-if ($ExitCode -lt 8) { $global:ExitCode = 0 }
-Exit $ExitCode
